@@ -1,0 +1,73 @@
+[
+   {
+      "last_update": "10:08 02/07/2021",
+      "scanning": true,
+      "node_list": [
+         {
+            "id": "node1",
+            "ip": "162.55.7.49",
+            "port": 8,
+            "ping": 23,
+            "connected": true,
+            "peers": {
+               "source": "'node1'",
+               "target": "'node2'",
+               "value": 4,
+               "category": 1
+            }
+         },
+         {
+            "id": "node2",
+            "ip": "16222.55.7.49",
+            "port": 2,
+            "ping": 2,
+            "connected": true,
+            "peers": {
+               "source": "'node2'",
+               "target": "'node3'",
+               "value": 42,
+               "category": 2
+            }
+         },
+         {
+            "id": "node3",
+            "ip": "16222.55.7.49",
+            "port": 2,
+            "ping": 2,
+            "connected": true,
+            "peers": {
+               "source": "'node3'",
+               "target": "'node1'",
+               "value": 19,
+               "category": 3
+            }
+         },
+         {
+            "id": "node4",
+            "ip": "16222.55.7.49",
+            "port": 2,
+            "ping": 2,
+            "connected": true,
+            "peers": {
+               "source": "'node1'",
+               "target": "'node4'",
+               "value": 1,
+               "category": 4
+            }
+         },
+         {
+            "id": "node5",
+            "ip": "16222.55.7.49",
+            "port": 2,
+            "ping": 2,
+            "connected": true,
+            "peers": {
+               "source": "'node4'",
+               "target": "'node3'",
+               "value": 30,
+               "category": 5
+            }
+         }
+      ]
+   }
+]
