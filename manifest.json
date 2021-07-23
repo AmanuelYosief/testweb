@@ -1,6 +1,6 @@
 {
-    "name": "network_explorer",
-    "short_name": "network_explorer",
+    "name": "sip_2",
+    "short_name": "sip_2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
